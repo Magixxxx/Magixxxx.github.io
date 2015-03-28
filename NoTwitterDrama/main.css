@@ -40,12 +40,17 @@ body {
     top: 155px;
 }
 
+.letter {
+    min-width:50px;
+    display:inline-block;
+}
+
 #day {
     left: 335px;
 }
 
 #hrs {
-    left: 520px;
+    left: 518px;
 }
 
 #min {
@@ -53,5 +58,5 @@ body {
 }
 
 #sec {
-    left: 840px;
+    left: 838px;
 }

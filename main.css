@@ -23,31 +23,35 @@ body {
 
 .timedigit {
     font-family: "Orbitron", Verdana, sans-serif;
-    font-weight:500;
-    opacity:0.8;
-    color:#ffed6f;
-    font-size:58px;
+    font-weight: 500;
+    opacity: 0.8;
+    color: #ffed6f;
+    font-size: 58px;
     mix-blend-mode: overlay;
     text-shadow: -1px -2px 4px rgba(169, 8, 8, 0.57)
 }
+
 .clock > div {
-    display:inline-block;
-    height:50px;
-    width:190px;
-    position:absolute;
+    display: inline-block;
+    height: 50px;
+    width: 190px;
+    position: absolute;
     text-align: center;
-    top:155px;
+    top: 155px;
 }
 
 #day {
-    left:335px;
+    left: 335px;
 }
+
 #hrs {
-    left:520px;
+    left: 520px;
 }
+
 #min {
-    left:685px;
+    left: 685px;
 }
+
 #sec {
-    left:840px;
+    left: 840px;
 }

@@ -4,16 +4,8 @@
 
 var START_TIME = 1427336100000;
 
-var img = $('<img>');
-img.on('load', function ()
-{
-    $('.clock').css('backgroundImage', 'url(' + img.attr('src') + ')');
-    $('#aboutbutton').html('#NoTwitterDrama');
-    printTimeSince();
-    var timerId = setInterval(printTimeSince, 1000);
-});
-img.attr('src', "img/clock.png");
-
+printTimeSince();
+var timerId = setInterval(printTimeSince, 1000);
 
 function printTimeSince()
 {

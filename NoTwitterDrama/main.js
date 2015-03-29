@@ -1,3 +1,4 @@
+// Timer stuff
 // https://twitter.com/Totalbiscuit/status/580915908345987072
 // 25.03.2015 at 7:15 pm PDT = 26.03.2015 at 2:15 am UTC = 1427336100000ms since since 1970
 
@@ -38,4 +39,13 @@ function updateView(el, text) {
     for (var i = 0; i < text.length; i++) {
         el.innerHTML += '<span class="letter">'+ text[i] +'</span>';
     }
+}
+
+//About stuff
+document.getElementById('aboutbutton').onclick = function() {
+    document.getElementById('aboutcontent').style.display = "block";
+}
+
+document.getElementById('aboutcontent').onclick = function() {
+    document.getElementById('aboutcontent').style.display = "none";
 }

@@ -1,8 +1,8 @@
 // Timer stuff
-// https://twitter.com/Totalbiscuit/status/580915908345987072
-// 25.03.2015 at 7:15 pm PDT = 26.03.2015 at 2:15 am UTC = 1427336100000ms since since 1970
+// https://twitter.com/Totalbiscuit/status/586494130085330945
+// 10.04.2015 at 4:41 am PDT = 10.04.2015 at 11:41 am UTC = 1428666060000ms since since 1970
 
-var START_TIME = 1427336100000;
+var START_TIME = 1428666060000;
 
 printTimeSince();
 var timerId = setInterval(printTimeSince, 1000);
